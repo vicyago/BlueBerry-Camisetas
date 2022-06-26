@@ -152,7 +152,7 @@ section {
     gap: 1%;
 }
 .imageHolder {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
     display: grid;
     grid-area: imageHolder;
     margin-top: 5%;
@@ -474,7 +474,7 @@ input:checked + .slider:before {
     height: 8vw;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 0px 15px black;
+    box-shadow: 0 0 15px black;
     margin: 0 0 0 8vw;
 }
 .button {
