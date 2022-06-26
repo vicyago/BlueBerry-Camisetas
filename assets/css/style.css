@@ -627,7 +627,9 @@ input:checked + .slider:before {
 #btn8,
 #btn9 {
     border: 15px solid transparent;
-    background: transparent;
+    background: linear-gradient(#ffffff 0 0) top,
+        linear-gradient(#ffffff 0 0) left, linear-gradient(#ffffff 0 0) bottom,
+        linear-gradient(#ffffff 0 0) right;
     background-size: 200% 4px, 4px 200%;
     background-origin: padding-box;
     background-repeat: no-repeat;
