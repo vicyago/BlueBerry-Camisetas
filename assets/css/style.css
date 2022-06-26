@@ -13,7 +13,7 @@ body {
 aside.light-theme {
     border-color: #527dfc;
     border-style: dotted;
-    box-shadow: 0px 1px 5px 2px #575757b6;
+    box-shadow: 0 1px 5px 2px #575757b6;
 }
 ul {
     list-style: none;
@@ -85,7 +85,7 @@ section {
     grid-area: nav;
     justify-content: center;
     margin-left: -25%;
-    margin-right: 0%;
+    margin-right: 0;
     text-align: center;
     width: auto;
 }
@@ -99,7 +99,7 @@ section {
 .navRight {
     border-color: #356fef;
     border-style: dotted;
-    box-shadow: 0px 1px 5px 2px #575757b6;
+    box-shadow: 0 1px 5px 2px #575757b6;
     line-height: 1.8rem;
     padding: 1%;
 }
@@ -275,14 +275,14 @@ footer {
     line-height: 2rem;
     list-style-type: none;
     margin-bottom: 1%;
-    margin-top: 0%;
+    margin-top: 0;
 }
 .personalizarion {
-    margin-top: 0%;
+    margin-top: 0;
 }
 .comentarioHolder {
     line-height: 2em;
-    margin-top: 0%;
+    margin-top: 0;
     margin-bottom: 5%;
     text-align: center;
 }
@@ -353,7 +353,7 @@ input:checked + .slider:before {
 .inputLimpar {
     border: 2px solid transparent;
     border-radius: 4px;
-    box-shadow: 0px 1px 6px rgba(80, 80, 80, 0.64);
+    box-shadow: 0 1px 6px rgba(80, 80, 80, 0.64);
     color: rgb(0, 0, 0);
     font-size: 0.8em;
     margin-top: 10%;
@@ -362,7 +362,7 @@ input:checked + .slider:before {
 .inputSalvar {
     border: 2px solid transparent;
     border-radius: 4px;
-    box-shadow: 0px 1px 6px rgba(80, 80, 80, 0.64);
+    box-shadow: 0 1px 6px rgba(80, 80, 80, 0.64);
     color: rgb(0, 0, 0);
     font-size: 0.8em;
     margin-top: 10%;
@@ -378,7 +378,7 @@ input:checked + .slider:before {
     background-color: #cfa9897a;
     border: 2px solid transparent;
     border-radius: 4px;
-    box-shadow: 0px 1px 6px rgba(80, 80, 80, 0.64);
+    box-shadow: 0 1px 6px rgba(80, 80, 80, 0.64);
     font-size: 1em;
     padding: 0.25em 0.5em;
 }
@@ -386,7 +386,7 @@ input:checked + .slider:before {
     background-color: #ffffff;
     border: 2px solid transparent;
     border-radius: 4px;
-    box-shadow: 0px 1px 6px rgba(80, 80, 80, 0.64);
+    box-shadow: 0 1px 6px rgba(80, 80, 80, 0.64);
     color: rgb(0, 0, 0);
     cursor: pointer;
     font-size: 1em;
@@ -417,7 +417,7 @@ input:checked + .slider:before {
 }
 .mainButton:hover {
     background-color: #ffa500;
-    box-shadow: 0px 1px 6px rgba(80, 80, 80, 0.64);
+    box-shadow: 0 1px 6px rgba(80, 80, 80, 0.64);
 }
 .main-button {
     align-items: center;
@@ -434,7 +434,7 @@ input:checked + .slider:before {
 }
 .main-button:hover {
     background-color: #ffffff57;
-    box-shadow: 0px 1px 6px rgba(103, 111, 110, 0.64);
+    box-shadow: 0 1px 6px rgba(103, 111, 110, 0.64);
 }
 .sectionButton {
     font-size: 1em;
@@ -474,7 +474,7 @@ input:checked + .slider:before {
     height: 8vw;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0px 0px 15px black;
+    box-shadow: 0 0px 15px black;
     margin: 0 0 0 8vw;
 }
 .button {
@@ -489,10 +489,10 @@ input:checked + .slider:before {
     border-radius: 10px;
     outline: none;
     transition: box-shadow 0.3s linear;
-    box-shadow: inset 0px 0px 5px black, inset 0px 0px 0px #2f1da3a7;
+    box-shadow: inset 0 0 5px black, inset 0 0 0 #2f1da3a7;
 }
 .button:active {
-    box-shadow: inset 0px 0px 0px black, inset 0px 0px 105px #2f1da3a7;
+    box-shadow: inset 0 0 0 black, inset 0 0 105px #2f1da3a7;
 }
 .button:active .blob {
     animation: none;
@@ -500,7 +500,7 @@ input:checked + .slider:before {
 .blob {
     position: relative;
     top: 10%;
-    left: 0%;
+    left: 0;
     width: 10vw;
     height: 10vw;
     fill: #137bdc;
@@ -510,7 +510,7 @@ input:checked + .slider:before {
 }
 @keyframes bump {
     0% {
-        transform: scale(1, 1) translateX(0px);
+        transform: scale(1, 1) translateX(0);
     }
     9% {
         transform: scale(1.1, 0.9) translateY(20px);
@@ -534,7 +534,7 @@ input:checked + .slider:before {
         transform: scale(1, 1) translateY(20px);
     }
     100% {
-        transform: scale(1, 1) translateX(0px);
+        transform: scale(1, 1) translateX(0);
     }
 }
 .text {
@@ -638,7 +638,6 @@ input:checked + .slider:before {
     height: 100%;
     margin-top: 8%;
     margin-left: 67%;
-    font-size: 1.5em;
     line-height: 2rem;
 }
 .caixaProdutos {
