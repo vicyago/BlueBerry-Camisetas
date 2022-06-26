@@ -89,12 +89,19 @@ section {
     text-align: center;
     width: auto;
 }
-.navFixed {
+.navRel {
+    position: relative;
+    margin-left: -3%;
+    width: 103%;
+}
+
+.nav ul{
+    margin-left: 10%;
+    width: 80%;
+}
+.navFixed{
     position: fixed;
-    right: 31px;
-    top: 50%;
-    width: 462px;
-    margin-top: -15em;
+    top: 0;
 }
 .navRight {
     border-color: #356fef;
@@ -102,6 +109,7 @@ section {
     box-shadow: 0 1px 5px 2px #575757b6;
     line-height: 1.8rem;
     padding: 1%;
+
 }
 .navRight li {
     display: inline-block;
