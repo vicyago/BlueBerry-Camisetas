@@ -55,6 +55,16 @@ body.light-theme a {
     color: #fcb641;
     font-size: 1.2em;
 }
+.pinkBig {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: palevioletred;
+}
+.pinkInSmall {
+    font-size: 1em;
+    font-weight: 400;
+    color: rgb(81, 81, 81);
+}
 .container {
     display: grid;
     grid-template-areas: "header header" "section section" "main aside" "footer footer";
