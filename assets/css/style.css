@@ -95,7 +95,7 @@ section {
     width: 103%;
 }
 
-.nav ul{
+.navRel ul, .navFixed ul{
     margin-left: 10%;
     width: 80%;
 }
@@ -491,7 +491,7 @@ input:checked + .slider:before {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background-color: #2be741;
+    background-color: hsl(127, 80%, 54%);
     position: relative;
     border: 1px dashed rgb(9, 48, 203);
     border-radius: 10px;
