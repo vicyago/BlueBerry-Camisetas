@@ -61,7 +61,6 @@ window.addEventListener("scroll", function() {
     let aside = document.querySelectorAll("aside")[0];
     let asideWidth = aside.offsetWidth;
     let asideLeftOffset = aside.offsetLeft;
-    console.log(document.querySelectorAll("aside")[0])
     if (window.scrollY > navBar.offsetTop) {
         navBar.classList.replace("navRel", "navFixed")
         navBar.style.width = asideWidth.toString() + "px";

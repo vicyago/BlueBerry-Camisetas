@@ -75,8 +75,8 @@ body.light-theme a {
 header {
     font-size: 1.1em;
     grid-area: header;
-    padding-bottom: 3%;
     text-align: center;
+    margin-bottom: 2%;
 }
 section {
     align-items: center;
@@ -563,6 +563,7 @@ input:checked + .slider:before {
     text-shadow: 1px 1px rgb(53, 53, 53);
     font-family: "Anton", sans-serif;
     color: #ffffff;
+    cursor: pointer;
 }
 .ag-format-container {
     width: 1142px;
