@@ -448,11 +448,28 @@ input:checked + .slider:before {
     font-size: 1.8em;
     justify-content: center;
     text-align: center;
+    text-decoration: none;
     width: 65%;
 }
 .main-button:hover {
     background-color: #ffffff57;
     box-shadow: 0 1px 6px rgba(103, 111, 110, 0.64);
+}
+.main-button a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.main-button a:hover:after { 
+  width: 100%; 
+  left: 0; 
 }
 .sectionButton {
     font-size: 1em;
@@ -488,12 +505,12 @@ input:checked + .slider:before {
 }
 .cont {
     position: relative;
-    width: 16vw;
+    width: 50%;
     height: 8vw;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 0 15px black;
-    margin: 0 0 0 27%;
+    margin-left: 25%;
 }
 .button {
     width: 100%;
