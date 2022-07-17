@@ -674,6 +674,7 @@ input:checked + .slider:before {
     margin-top: 8%;
     margin-left: 67%;
     line-height: 2rem;
+    transform: translateX(0.36px) rotate(0.01deg);
 }
 .caixaProdutos {
     margin-left: -22%;
