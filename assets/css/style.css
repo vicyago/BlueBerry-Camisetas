@@ -451,24 +451,21 @@ input:checked + .slider:before {
     text-decoration: none;
     width: 65%;
 }
-.main-button:hover {
-    background-color: #ffffff57;
-    box-shadow: 0 1px 6px rgba(103, 111, 110, 0.64);
-}
 .main-button a:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
   display: block;
   height: 2px;
-  left: 50%;
+  width: 0%;
   position: absolute;
-  background: #fff;
+  background: #3f6df5;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
+  top: 20%;
 }
 .main-button a:hover:after { 
-  width: 100%; 
+  width: 65%; 
   left: 0; 
 }
 .sectionButton {
